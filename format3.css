@@ -1,0 +1,10 @@
+p {color: red;}
+
+table {border-color: red;}
+.tr1 {background-color: red;
+color: white}
+
+.td1, .td2, .td3 {color: red;}
+
+.span1 {color: blue}
+.span2 {color: green;}

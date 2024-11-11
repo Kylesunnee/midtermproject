@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="format2.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Let's Connect!!</h1>
+    <div class="formbox">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+
+            <label>What computer languages do you love? (Check all that apply)</label>
+            <div class="checkbox">
+                <label><input type="checkbox" name="lang" value="C"> C</label>
+                <label><input type="checkbox" name="lang" value="C++"> C++</label>
+                <label><input type="checkbox" name="lang" value="C#"> C#</label>
+                <label><input type="checkbox" name="lang" value="Java"> Java</label>
+                <label><input type="checkbox" name="lang" value="Python"> Python</label>
+                <label><input type="checkbox" name="lang" value="Javascript"> Javascript</label>
+                <label><input type="checkbox" name="lang" value="React"> React</label>
+            </div>
+
+            <label for="comments">Any comments or suggestions</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <a href="submitpage.html">
+            <button type="submit">Submit</button>
+        </a>
+    </div>
+    <script src="answers.js"></script>
+</body>
+</html>  
